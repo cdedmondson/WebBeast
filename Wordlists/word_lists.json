@@ -1,0 +1,115 @@
+{
+  "apache": [
+    {
+      "common-seclists": "/usr/share/seclists/Discovery/Web-Content/apache.txt"
+    },
+    {
+      "fuzz-seclists": "/usr/share/seclists/Discovery/Web-Content/Apache.fuzz.txt"
+    },
+    {
+      "vulns-dirb": "/usr/share/wordlists/dirb/vulns/apache.txt"
+    }
+  ],
+  "tomcat": [
+    {
+      "common-seclists": "/usr/share/seclists/Discovery/Web-Content/tomcat.txt"
+    },
+    {
+      "fuzz-seclists": "/usr/share/seclists/Discovery/Web-Content/ApacheTomcat.fuzz.txt"
+    },
+    {
+      "vulns-dirb": "/usr/share/wordlists/dirb/vulns/tomcat.txt"
+    }
+  ],
+  "wordpress": [
+    {
+      "fuzz-seclists": "/usr/share/seclists/Discovery/Web-Content/CMS/wordpress.fuzz.txt"
+    },
+    {
+      "fuzz-themes-seclists": "/usr/share/seclists/Discovery/Web-Content/CMS/wp-themes.fuzz.txt",
+      "fuzz-themes-metasploit": "/usr/share/wordlists/metasploit/wp-themes.txt"
+    },
+    {
+      "fuzz-plugins-seclists": "/usr/share/seclists/Discovery/Web-Content/CMS/wp-plugins.fuzz.txt",
+      "fuzz-plugins-metasploit": "/usr/share/wordlists/metasploit/wp-plugins.txt"
+    }
+  ],
+  "joomla": [
+    {
+      "fuzz-metasploit": "/usr/share/wordlists/metasploit/joomla.txt"
+    },
+    {
+      "fuzz-themes-seclists": "/usr/share/seclists/Discovery/Web-Content/CMS/joomla-themes.fuzz.txt"
+    },
+    {
+      "fuzz-plugins-seclists": "/usr/share/seclists/Discovery/Web-Content/CMS/joomla-plugins.fuzz.txt"
+    }
+  ],
+  "coldfusion": [
+    {
+      "common-seclists": "/usr/share/seclists/Discovery/Web-Content/coldfusion.txt"
+    },
+    {
+      "fuzz-seclists": "/usr/share/seclists/Discovery/Web-Content/CMS/ColdFusion.fuzz.txt"
+    },
+    {
+      "vulns-dirb": "/usr/share/wordlists/dirb/vulns/coldfusion.txt"
+    },
+    {
+      "domino-dirs-coldfusion39-seclists": "/usr/share/seclists/Discovery/Web-Content/domino-dirs-coldfusion39.txt"
+    },
+    {
+      "domino-endpoints-coldfusion39-seclists": "/usr/share/seclists/Discovery/Web-Content/domino-endpoints-coldfusion39.txt"
+    }
+  ],
+  "drupal": [
+    {
+      "fuzz-seclists": "/usr/share/seclists/Discovery/Web-Content/CMS/drupal-themes.fuzz.txt"
+    }
+  ],
+  "iis": [
+    {
+      "fuzz-seclists": "/usr/share/seclists/Discovery/Web-Content/IIS.fuzz.txt"
+    },
+    {
+      "vulns-dirb": "/usr/share/dirb/wordlists/vulns/iis.txt",
+      "vulns-wfuzz": "/usr/share/wfuzz/wordlist/vulns/iis.txt"
+    }
+  ],
+  "dirb": [
+    {
+      "big": "/usr/share/wordlists/dirb/big.txt"
+    },
+    {
+      "small": "/usr/share/wordlists/dirb/small.txt"
+    },
+    {
+      "common": "/usr/share/wordlists/dirb/common.txt"
+    },
+    {
+      "indexes": "/usr/share/wordlists/dirb/indexes.txt"
+    }
+  ],
+  "dirbuster": [
+    {
+      "lower_case_small": "/usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-small.txt"
+    },
+    {
+      "lower_case_medium": "/usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt"
+    },
+    {
+      "small": "/usr/share/wordlists/dirbuster/directory-list-2.3-small.txt"
+    },
+    {
+      "medium": "/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt"
+    },
+    {
+      "standard": "/usr/share/wordlists/dirbuster/directory-list-1.0.txt"
+    }
+  ],
+  "dirsearch": [
+    {
+      "default": "/opt/dirsearch/db/dicc.txt"
+    }
+  ]
+}
